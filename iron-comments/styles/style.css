@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -7,5 +8,26 @@ body {
 }
 
 #form-container {
-    margin: auto;
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 5px;
+    width: 250px;
+    box-sizing: 250px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(25, 33, 41)
+}
+
+.formLabel {
+    color: rgb(255,255,255);
+}
+
+#mailCheckbox {
+    font-style: italic;
+}
+
+#submitBtn{
+    border: 0px;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    border-radius: 10px;
 }
